@@ -7,14 +7,14 @@
   
   <title>Termux配置 | 搁浅</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Termux配置##安装zshpkg install zsh ##安装oh my zshsh -c “$(wget https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;robbyrussell&#x2F;oh-my-zsh&#x2F;master&#x2F;tools&#x2F;install.sh -O -)” ##安装主题git clone https:&#x2F;&#x2F;github.com&#x2F;bhilburn&#x2F;powerlevel">
+  <meta name="description" content="安装zshpkg install zsh 安装oh my zshsh -c “$(wget https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;robbyrussell&#x2F;oh-my-zsh&#x2F;master&#x2F;tools&#x2F;install.sh -O -)” 安装主题git clone https:&#x2F;&#x2F;github.com&#x2F;bhilburn&#x2F;powerlevel9k ~&#x2F;.oh-my-zs">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Termux配置">
 <meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;12&#x2F;Termux%E9%85%8D%E7%BD%AE&#x2F;index.html">
 <meta property="og:site_name" content="搁浅">
-<meta property="og:description" content="Termux配置##安装zshpkg install zsh ##安装oh my zshsh -c “$(wget https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;robbyrussell&#x2F;oh-my-zsh&#x2F;master&#x2F;tools&#x2F;install.sh -O -)” ##安装主题git clone https:&#x2F;&#x2F;github.com&#x2F;bhilburn&#x2F;powerlevel">
-<meta property="article:published_time" content="2019-12-11T23:53:34.200Z">
-<meta property="article:modified_time" content="2019-12-11T23:53:34.200Z">
+<meta property="og:description" content="安装zshpkg install zsh 安装oh my zshsh -c “$(wget https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;robbyrussell&#x2F;oh-my-zsh&#x2F;master&#x2F;tools&#x2F;install.sh -O -)” 安装主题git clone https:&#x2F;&#x2F;github.com&#x2F;bhilburn&#x2F;powerlevel9k ~&#x2F;.oh-my-zs">
+<meta property="article:published_time" content="2019-12-12T00:04:16.260Z">
+<meta property="article:modified_time" content="2019-12-12T00:04:16.250Z">
 <meta property="article:author" content="Jay Hsu">
 <meta name="twitter:card" content="summary">
   
@@ -68,7 +68,7 @@
         <section id="main"><article id="post-Termux配置" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/12/12/Termux%E9%85%8D%E7%BD%AE/" class="article-date">
-  <time datetime="2019-12-11T23:53:34.200Z" itemprop="datePublished">2019-12-12</time>
+  <time datetime="2019-12-12T00:04:16.260Z" itemprop="datePublished">2019-12-12</time>
 </a>
     
   </div>
@@ -87,29 +87,28 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="Termux配置"><a href="#Termux配置" class="headerlink" title="Termux配置"></a>Termux配置</h1><p>##安装zsh<br>pkg install zsh</p>
-<p>##安装oh my zsh<br>sh -c “$(wget <a href="https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh" target="_blank" rel="noopener">https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh</a> -O -)”</p>
-<p>##安装主题<br>git clone <a href="https://github.com/bhilburn/powerlevel9k" target="_blank" rel="noopener">https://github.com/bhilburn/powerlevel9k</a> ~/.oh-my-zsh/custom/themes/powerlevel9k</p>
-<p>##安装插件<br>git clone <a href="https://github.com/zsh-users/zsh-autosuggestions" target="_blank" rel="noopener">https://github.com/zsh-users/zsh-autosuggestions</a> ${ZSH_CUSTOM:-<del>/.oh-my-zsh/custom}/plugins/zsh-autosuggestions<br>git clone <a href="https://github.com/zsh-users/zsh-syntax-highlighting" target="_blank" rel="noopener">https://github.com/zsh-users/zsh-syntax-highlighting</a> ${ZSH_CUSTOM:-</del>/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting<br>git clone <a href="https://github.com/zsh-users/zsh-completions" target="_blank" rel="noopener">https://github.com/zsh-users/zsh-completions</a> ~/.oh-my-zsh/custom/plugins/zsh-completions</p>
-<p>安装vim nano<br>pkg install vim nano</p>
-<p>随机显示一句话(看心情加😂)<br>pkg install fortune<br>fortune</p>
-<p>编辑.zshrc文件(用文件管理器去termux的home目录编辑是一样的#(滑稽))<br>vim .zshrc</p>
-<p>主题修改为:<br>powerlevel9k/powerlevel9k</p>
-<p>加入插件，修改名称等如下<br>plugins=(<br>git<br>zsh-completions<br>zsh-syntax-highlighting<br>zsh-autosuggestions<br>)</p>
+        <h2 id="安装zsh"><a href="#安装zsh" class="headerlink" title="安装zsh"></a>安装zsh</h2><p>pkg install zsh</p>
+<h2 id="安装oh-my-zsh"><a href="#安装oh-my-zsh" class="headerlink" title="安装oh my zsh"></a>安装oh my zsh</h2><p>sh -c “$(wget <a href="https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh" target="_blank" rel="noopener">https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh</a> -O -)”</p>
+<h2 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h2><p>git clone <a href="https://github.com/bhilburn/powerlevel9k" target="_blank" rel="noopener">https://github.com/bhilburn/powerlevel9k</a> ~/.oh-my-zsh/custom/themes/powerlevel9k</p>
+<h2 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h2><p>git clone <a href="https://github.com/zsh-users/zsh-autosuggestions" target="_blank" rel="noopener">https://github.com/zsh-users/zsh-autosuggestions</a> ${ZSH_CUSTOM:-<del>/.oh-my-zsh/custom}/plugins/zsh-autosuggestions<br>git clone <a href="https://github.com/zsh-users/zsh-syntax-highlighting" target="_blank" rel="noopener">https://github.com/zsh-users/zsh-syntax-highlighting</a> ${ZSH_CUSTOM:-</del>/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting<br>git clone <a href="https://github.com/zsh-users/zsh-completions" target="_blank" rel="noopener">https://github.com/zsh-users/zsh-completions</a> ~/.oh-my-zsh/custom/plugins/zsh-completions</p>
+<h2 id="安装vim-nano"><a href="#安装vim-nano" class="headerlink" title="安装vim nano"></a>安装vim nano</h2><p>pkg install vim nano</p>
+<h2 id="随机显示一句话-看心情加😂"><a href="#随机显示一句话-看心情加😂" class="headerlink" title="随机显示一句话(看心情加😂)"></a>随机显示一句话(看心情加😂)</h2><p>pkg install fortune<br>fortune</p>
+<h2 id="编辑-zshrc文件-用文件管理器去termux的home目录编辑是一样的"><a href="#编辑-zshrc文件-用文件管理器去termux的home目录编辑是一样的" class="headerlink" title="编辑.zshrc文件(用文件管理器去termux的home目录编辑是一样的"></a>编辑.zshrc文件(用文件管理器去termux的home目录编辑是一样的</h2><p>vim .zshrc</p>
+<h2 id="主题修改为"><a href="#主题修改为" class="headerlink" title="主题修改为:"></a>主题修改为:</h2><p>powerlevel9k/powerlevel9k</p>
+<h2 id="加入插件，修改名称等如下"><a href="#加入插件，修改名称等如下" class="headerlink" title="加入插件，修改名称等如下"></a>加入插件，修改名称等如下</h2><p>plugins=(<br>git<br>zsh-completions<br>zsh-syntax-highlighting<br>zsh-autosuggestions<br>)</p>
 <p>autoload -U compinit &amp;&amp; compinit</p>
 <p>POWERLEVEL9K_CONTEXT_TEMPLATE=”***”</p>
 <p>[[ -e ./.zshrc ]] &amp;&amp; fortune</p>
-<p>退出编辑<br>esc + :wq</p>
-<p>使改动生效<br>source ~/.zshrc<br>或者重启终端</p>
-<p>设定zsh为默认终端<br>chsh -s zsh</p>
-<p>切换为默认bash客户端<br>chsh -s bash</p>
-<p>换不换看心情#(墨镜滑稽)</p>
-<p>#(受虐滑稽)#(受虐滑稽)#(受虐滑稽)#(受虐滑稽)</p>
+<h2 id="退出编辑"><a href="#退出编辑" class="headerlink" title="退出编辑"></a>退出编辑</h2><p>esc + :wq</p>
+<h2 id="使改动生效"><a href="#使改动生效" class="headerlink" title="使改动生效"></a>使改动生效</h2><p>source ~/.zshrc<br>或者重启终端</p>
+<h2 id="设定zsh为默认终端"><a href="#设定zsh为默认终端" class="headerlink" title="设定zsh为默认终端"></a>设定zsh为默认终端</h2><p>chsh -s zsh</p>
+<h2 id="切换为默认bash客户端"><a href="#切换为默认bash客户端" class="headerlink" title="切换为默认bash客户端"></a>切换为默认bash客户端</h2><p>chsh -s bash</p>
+<p>换不换看心情</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/12/12/Termux%E9%85%8D%E7%BD%AE/" data-id="ck41ybh2e0000fxs619wwc1j5" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/12/12/Termux%E9%85%8D%E7%BD%AE/" data-id="ck41ynzku000036s622opehrr" class="article-share-link">Share</a>
       
       
     </footer>
